@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Varshitha Lalisetty</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Full Stack Developer | Designer | Creator</p>
+        </div>
+    </section>
+
+    <section id="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>"I am a passionate and creative web developer with a strong foundation in HTML, CSS, and JavaScript. I specialize in building responsive, user-friendly websites with smooth animations and clean design. With an interest in both frontend and basic backend development, I enjoy turning ideas into functional digital experiences."</p>
+        </div>
+    </section>
+
+    <section id="projects" data-aos="fade-up">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <!-- Project cards will be added dynamically via JavaScript -->
+        </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
