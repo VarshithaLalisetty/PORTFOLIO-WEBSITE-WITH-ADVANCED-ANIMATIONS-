@@ -24,5 +24,8 @@ Creating this portfolio was also about learning how to combine design and develo
 
 Overall, this project helped me strengthen my frontend development skills and gave me hands-on experience with animation libraries and backend integration. More than just a coding task, it’s a creative project I’m proud of — one that shows what I can do and what I’m passionate about in web development.
 
+*output*
+![Image](https://github.com/user-attachments/assets/8cd0660f-d9cc-4c3f-b6ea-f8ef307f5848)
+
 
 
